@@ -1,5 +1,5 @@
-## Back
-
+# Solución — Examen Práctico
+## Qué se implementó
 Se reestructuro todo el proyecto, actualizando las dependencias del pom, actualizando la versión de java de 17 a 21 por instalación en la maquina
 Se paso de DTO tipo Class a Record, esto a que los records son inmutables
 Se mappeo la entidad con jackarta
@@ -10,3 +10,12 @@ Se implemento JPA repository
 Se adiciono el servicio delete
 Se refino el codigo de los controladores, ya que por buenas practicas dentro de dicha clase no debe ir logica y no repetir el path /client
 Se implemento cadena de conexión con H2 para el proyecto
+## Cómo se implementó
+Se utilizaron las etiquetas que ofrece lombok
+## Cambios en base de datos / configuración
+Se implemento H2 
+## Dificultades encontradas
+El proyecto dentro de las capas e implementaciones presentaba muchas falencias, por lo cual me tomo tiempo reestructurarlo
+## Mejoras que podrían aplicarse
+Colocar seguridad, validaciones, logs de modificaciones
+
