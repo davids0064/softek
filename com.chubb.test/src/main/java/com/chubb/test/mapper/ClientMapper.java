@@ -2,7 +2,6 @@ package com.chubb.test.mapper;
 
 import com.chubb.test.dto.ClientDTO;
 import com.chubb.test.jpa.entity.ClienteEntity;
-import com.chubb.test.model.Client;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
